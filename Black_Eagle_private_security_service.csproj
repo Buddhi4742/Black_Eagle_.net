@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EBFF342-3327-4239-969C-0F5F3A3E20A2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Black_Eagle_private_security_service</RootNamespace>
+    <AssemblyName>Black_Eagle_private_security_service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form09_Confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form09_Confirm.Designer.cs">
+      <DependentUpon>Form09_Confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form04_mainemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form04_mainemp.Designer.cs">
+      <DependentUpon>Form04_mainemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form01_welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form01_welcome.Designer.cs">
+      <DependentUpon>Form01_welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form02_emplogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form02_emplogin.Designer.cs">
+      <DependentUpon>Form02_emplogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form03_custlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form03_custlogin.Designer.cs">
+      <DependentUpon>Form03_custlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form07_empdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form07_empdetails.Designer.cs">
+      <DependentUpon>Form07_empdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form05_maincust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form05_maincust.Designer.cs">
+      <DependentUpon>Form05_maincust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form06_custdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form06_custdetails.Designer.cs">
+      <DependentUpon>Form06_custdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08_custservice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08_custservice.Designer.cs">
+      <DependentUpon>Form08_custservice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13_managesupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13_managesupplier.Designer.cs">
+      <DependentUpon>Form13_managesupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10_empsalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10_empsalary.Designer.cs">
+      <DependentUpon>Form10_empsalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12_neworders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12_neworders.Designer.cs">
+      <DependentUpon>Form12_neworders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11_newitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11_newitem.Designer.cs">
+      <DependentUpon>Form11_newitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14_manageitem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14_manageitem.Designer.cs">
+      <DependentUpon>Form14_manageitem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form04_mainemp.resx">
+      <DependentUpon>Form04_mainemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form01_welcome.resx">
+      <DependentUpon>Form01_welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form02_emplogin.resx">
+      <DependentUpon>Form02_emplogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form03_custlogin.resx">
+      <DependentUpon>Form03_custlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form07_empdetails.resx">
+      <DependentUpon>Form07_empdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form05_maincust.resx">
+      <DependentUpon>Form05_maincust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form06_custdetails.resx">
+      <DependentUpon>Form06_custdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08_custservice.resx">
+      <DependentUpon>Form08_custservice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form09_Confirm.resx">
+      <DependentUpon>Form09_Confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10_empsalary.resx">
+      <DependentUpon>Form10_empsalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12_neworders.resx">
+      <DependentUpon>Form12_neworders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11_newitem.resx">
+      <DependentUpon>Form11_newitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13_managesupplier.resx">
+      <DependentUpon>Form13_managesupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14_manageitem.resx">
+      <DependentUpon>Form14_manageitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
